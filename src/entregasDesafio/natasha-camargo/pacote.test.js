@@ -1,8 +1,8 @@
 const { calcularPacote } = require('../../dominio/calculadora/Projeto/pacote');
 
-describe('Calcular pacote de acordo com cada projeto', () => {
+describe('Calcular pacote correto para cada projeto', () => {
 
-    test('Retorna pacote básica caso o número total de horas seja até 50', () => {
+    test('Retorna pacote básico caso o número total de horas seja até 50', () => {
         const totalDeHorasPorProjeto = 49;
 
         const result = calcularPacote(totalDeHorasPorProjeto);
